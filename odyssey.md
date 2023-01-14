@@ -41,7 +41,7 @@ export GIT_PAGER=cat
 
 # Workflow
 Basic rules
-- *main* branch is never overwritten
+- *main* branch is never overwritten (alternative condition: git pull ALWAYS succeeds)
 - All new features are introduced in separate branches, then merged into *main* to keep it clean
 - Prefer *rebase* over *merge*
 - **TBC** There are many implicit rules I forgot to mention here
